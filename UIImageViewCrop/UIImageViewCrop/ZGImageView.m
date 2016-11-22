@@ -24,7 +24,7 @@
     CGContextClip(ctx);
     // 绘图
     UIImage * image = [UIImage imageNamed:@"sonice.jpg"];
-    [image drawInRect:rect blendMode:kCGBlendModeOverlay alpha:1.0f];
+    [image drawInRect:rect blendMode:kCGBlendModeOverlay alpha:1];
 }
 
 
